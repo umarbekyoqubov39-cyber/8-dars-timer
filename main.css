@@ -1,0 +1,51 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* h1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  margin-top: 300px;
+} */
+
+body {
+  height: 100%;
+}
+
+html {
+  height: 100%;
+}
+.timer {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 20px;
+}
+
+form {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+input {
+  padding: 20px 70px;
+}
+
+#vaqt {
+  text-align: center;
+}
+
+.button {
+  padding: 15px 30px;
+  border: 1px solid red;
+  background-color: transparent;
+  color: green;
+  border-radius: 8px;
+}
